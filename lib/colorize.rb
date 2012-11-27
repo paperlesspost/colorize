@@ -75,7 +75,7 @@ class String
   #   puts "This is uncolorized".blue.on_red.uncolorize
   #
   def colorize( params )
-    return self unless STDOUT.isatty
+    return self unless self.class.color_enabled
 
     begin
       require 'Win32/Console/ANSI' if RUBY_PLATFORM =~ /win32/
@@ -187,5 +187,20 @@ class String
       end
       ""
     end
+
+    # When true, strings are colorized. Overridable for cases where result of
+    # the .color_supported? method is inaccurate.
+    attr_accessor :color_enabled
+
+    def color_supported?
+      # By default, color is only supported for interactive shells.
+      STDOUT.isatty
+    end
+
+    def enable_color_if_supported!
+      self.color_enabled = color_supported?
+    end
   end
 end
+
+String.enable_color_if_supported!
