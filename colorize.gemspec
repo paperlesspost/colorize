@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{colorize}
-  s.version = "0.5.8"
+  s.version = "0.5.9.paperless"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["fazibear"]
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "colorize.gemspec",
      "lib/colorize.rb",
-     "test/test_colorize.rb",
+     "test/colorize_test.rb",
      "test/test_helper.rb"
   ]
   s.homepage = %q{http://github.com/fazibear/colorize}
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.summary = %q{Add colors methods to string class}
   s.test_files = [
     "test/test_helper.rb",
-     "test/test_colorize.rb"
+     "test/colorize_test.rb"
   ]
 
   if s.respond_to? :specification_version then
