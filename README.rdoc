@@ -1,4 +1,4 @@
-<b>Note that this fork is not currently maintained.  Please refer to [https://github.com/fazibear/colorize](fazibear/colorize)</b>
+<b>Note that this fork is not currently maintained.  Please refer to {https://github.com/fazibear/colorize}[fazibear/colorize]</b>
 
 == colorize
     http://colorize.rubyforge.org
