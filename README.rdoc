@@ -1,13 +1,15 @@
+<b>Note that this fork is not currently maintained.  Please refer to {fazibear/colorize}[https://github.com/fazibear/colorize]</b>
+
 == colorize
     http://colorize.rubyforge.org
     http://fazibear.prv.pl
 
 == DESCRIPTION:
-  
+
 Ruby string class extension. It add some methods to set color, background color and text effect on console easier. Uses ANSI escape sequences.
 
 == FEATURES/PROBLEMS:
-  
+
 * change string color
 * change string background
 * change string effect
@@ -52,4 +54,4 @@ This program is free software; you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA. 
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
